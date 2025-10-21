@@ -1,11 +1,11 @@
-# SeqTech_2024
-**CSHL Advanced Sequencing Technologies Course**  
+# SeqTech_2025
+**CSHL Advanced Sequencing Technologies and Bioinformatics Analysis Course**  
 Jon Preall  
 Research Associate Professor @ CSHL
 
 ## Lecture Slides
-[11/11: Single Cell Sequencing](https://www.dropbox.com/scl/fi/o2kjzpdcm5iuokdotdh3p/Preall_SeqTech_2023.pptx?rlkey=bfl3n7vw1ubz0jq93v8hr65mv&dl=0) (142MB .pptx file)  
-[11/21: Intro to scRNA-seq Analysis](https://www.dropbox.com/scl/fi/yrkwawtortfgwq8hfsiyn/Intro_to_scRNAseq_2023.pptx?rlkey=we58cjp366l7z5v1yzm8vnhix&dl=0) (36MB .pptx file)
+[11/10: Single Cell Sequencing](https://www.dropbox.com/scl/fi/o2kjzpdcm5iuokdotdh3p/Preall_SeqTech_2023.pptx?rlkey=bfl3n7vw1ubz0jq93v8hr65mv&dl=0) (142MB .pptx file)  
+[11/2119: Intro to scRNA-seq Analysis](https://www.dropbox.com/scl/fi/yrkwawtortfgwq8hfsiyn/Intro_to_scRNAseq_2023.pptx?rlkey=we58cjp366l7z5v1yzm8vnhix&dl=0) (36MB .pptx file)
 
 ## Single Cell Wet Lab: Profiling PBMCs of Disease-Affected Donors
 We went shopping at the [blood store](https://www.stemcell.com/products/product-types/primary-and-cultured-cells.html?cell_type=Whole%7C%7CMononuclear+Cells&p=2) and bought vials of Peripheral Blood Mononuclear Cells (PBMCs) from donors representing 4 conditions:  
