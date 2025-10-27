@@ -13,7 +13,7 @@ print('Hello World!')
 ```
 
 ## 11/19: Intro to Single Cell Visualization in Loupe
-[Link to download Loupe Data)(https://www.dropbox.com/scl/fi/ymv71xz7bb9pphoege4cc/SeqTech2023_iMac_data.tar.gz?rlkey=9d29poys1cat4a1ste3vis7a9&dl=0) (.tar.gz file)  
+[Link to download Loupe Data](https://www.dropbox.com/scl/fi/ymv71xz7bb9pphoege4cc/SeqTech2023_iMac_data.tar.gz?rlkey=9d29poys1cat4a1ste3vis7a9&dl=0) (.tar.gz file)  
 [Visium SD dataset](https://www.dropbox.com/scl/fi/53050l6vqgqvfnscxpua3/Castellanos_MC05_DS4M_D1.cloupe?rlkey=lcl1rva9mk5ga9fy0d4g5v25g&dl=0) (.cloupe file)  
 
 
