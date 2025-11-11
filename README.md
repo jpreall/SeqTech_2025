@@ -4,7 +4,7 @@ Jon Preall
 Research Associate Professor @ CSHL
 
 ## Lecture Slides
-[11/10: Single Cell Sequencing](https://www.dropbox.com/scl/fi/o2kjzpdcm5iuokdotdh3p/Preall_SeqTech_2023.pptx?rlkey=bfl3n7vw1ubz0jq93v8hr65mv&dl=0) (142MB .pptx file)  
+[11/10: Single Cell Sequencing]([https://www.dropbox.com/scl/fi/o2kjzpdcm5iuokdotdh3p/Preall_SeqTech_2023.pptx?rlkey=bfl3n7vw1ubz0jq93v8hr65mv&dl=0](https://www.dropbox.com/scl/fi/2fgj4dfuwbpuuadtanzjz/Preall_SingleCell_SeqTech_2025.pdf?rlkey=wfhdc2sqyf7kjobyki6poj4ut&dl=0)) (13MB .pdf file)  
 [11/19: Intro to scRNA-seq Analysis](https://www.dropbox.com/scl/fi/yrkwawtortfgwq8hfsiyn/Intro_to_scRNAseq_2023.pptx?rlkey=we58cjp366l7z5v1yzm8vnhix&dl=0) (36MB .pptx file)
 
 ## 11/19: Intro to Python
@@ -27,8 +27,8 @@ print('Hello World!')
 ```
 JP=3.86.4.253
 cd /workspace/
-wget http://$JP/SingleCell.tar.gz
-tar -zxvf SingleCell.tar.gz
+wget http://$JP/pbmc.tar
+tar -xvf SingleCell.tar
 ```
 
 ## 11/21 9:10-10:30am: Cell Typing Lab
@@ -41,11 +41,4 @@ tar -zxvf SingleCell.tar.gz
 print('Nature Paper')
 ```
 
-
-
-## Install the packages I forgot to have pre-installed
-```
-source activate scRNAseq_env
-pip install celltypist ipywidgets gseapy matplotlib-venn
-```
   
