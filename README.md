@@ -8,6 +8,30 @@ Research Associate Professor @ CSHL
 [11/19: Intro to scRNA-seq Analysis](https://www.dropbox.com/scl/fi/yrkwawtortfgwq8hfsiyn/Intro_to_scRNAseq_2023.pptx?rlkey=we58cjp366l7z5v1yzm8vnhix&dl=0) (36MB .pptx file)
 
 ## 11/19: Intro to Python
+
+**Connect to your instance**
+```
+AWSIP=107.22.88.84
+PEM=cshl_2025_student.pem
+ssh -i $PEM ubuntu@$AWSIP
+```
+**Start Jupyter Lab**
+```
+cd workspace
+jupyter lab
+```
+** Modify the URL that Jupyter tells you to use to connect to your Lab server**
+```
+To access the server, open this file in a browser:
+        file:///home/ubuntu/.local/share/jupyter/runtime/jpserver-1707-open.html
+    Or copy and paste one of these URLs:
+        http://**ip-172-31-37-238**:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3
+     or http://127.0.0.1:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3
+```
+will become
+`http://**107.22.88.84**:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3`
+
+
 ```
 print('Hello World!')
 ```
