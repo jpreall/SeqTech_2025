@@ -20,21 +20,22 @@ ssh -i $PEM ubuntu@$AWSIP
 cd workspace
 jupyter lab
 ```
-** Modify the URL that Jupyter tells you to use to connect to your Lab server**
+**Modify the URL that Jupyter tells you to use to connect to your Lab server**  
+Once you launch Jupyter Lab, it will eventually spit out these *incorrect* instructions to connect:
 ```
 To access the server, open this file in a browser:
         file:///home/ubuntu/.local/share/jupyter/runtime/jpserver-1707-open.html
     Or copy and paste one of these URLs:
-        http://**ip-172-31-37-238**:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3
+        http://ip-172-31-37-238:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3
      or http://127.0.0.1:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3
 ```
-will become
-`http://**107.22.88.84**:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3`
+Both versions are wrong.  Instead, you need to replace the IP address portion of either URL with your instance's IP address, which can be found on your AWS console:  
 
+Example:  
+`http://107.22.88.84:8888/lab?token=c541badc8c933eabcf38054d6dc21621340fe62aa1b86fc3`  
+  
+Note the `token=` part changes every time you launch jupyter lab, just like your IP address changes every time you restart your instance.  So this has to be done every time you start a Jupyter Lab session for the day.  
 
-```
-print('Hello World!')
-```
 
 ## 11/19: Intro to Single Cell Visualization in Loupe
 [Link to download Loupe Data](https://www.dropbox.com/scl/fi/ymv71xz7bb9pphoege4cc/SeqTech2023_iMac_data.tar.gz?rlkey=9d29poys1cat4a1ste3vis7a9&dl=0) (.tar.gz file)  
