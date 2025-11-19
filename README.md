@@ -15,6 +15,12 @@ AWSIP=98.91.198.220
 PEM=cshl_2025_student.pem
 ssh -i $PEM ubuntu@$AWSIP
 ```
+
+**Fetch my notebook**
+```
+wget http://98.91.198.220/python_basics_walkthrough.ipynb
+```
+
 **Start Jupyter Lab**
 ```
 cd workspace
@@ -53,13 +59,12 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 
 ## 11/20 2:00-5:30pm: Scanpy Lab
 [Scanpy Data Package](https://www.dropbox.com/scl/fi/ft369bh8ggj0141a1kggm/AWS_package.tar.gz?rlkey=u7i0x1rncerlajnwmq28c0tt9&dl=0) (.tar.gz)
+
+**Fetch scRNA data**
 ```
-JP=98.91.198.220
 cd /workspace/
-wget http://$JP/python_basics_walkthrough.ipynb
-wget http://98.91.198.220/python_basics_walkthrough.ipynb
-wget http://$JP/pbmc.tar
-tar -xvf SingleCell.tar
+wget http://98.91.198.220/scRNAseq/pbmc.tar
+tar -xvf pbmc.tar
 ```
 
 ## 11/21 9:10-10:30am: Cell Typing Lab
