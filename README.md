@@ -58,7 +58,6 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 [CCLE data download](https://www.dropbox.com/scl/fi/uwgg1d1qus6izwoplrzgh/CCLE_rpkm_forcourse.csv.gz?rlkey=qcf1vna500x0q4j2ma25rvs2w&dl=0) (.tar.gz)
 
 ## 11/20 2:00-5:30pm: Scanpy Lab
-[Scanpy Data Package](https://www.dropbox.com/scl/fi/ft369bh8ggj0141a1kggm/AWS_package.tar.gz?rlkey=u7i0x1rncerlajnwmq28c0tt9&dl=0) (.tar.gz)
 
 **Fetch scRNA data**
 ```
