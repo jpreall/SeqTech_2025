@@ -62,8 +62,10 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 **Fetch scRNA data**
 ```
 cd /workspace/
-wget http://98.91.198.220/scRNAseq/pbmc.tar
+wget http://3.91.91.117/scRNAseq/pbmc.tar
 tar -xvf pbmc.tar
+
+wget http://3.91.91.117/scRNAseq/unprocessed_qced.h5ad
 ```
 
 ## 11/21 9:10-10:30am: Cell Typing Lab
